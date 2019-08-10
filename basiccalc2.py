@@ -15,7 +15,8 @@ def calc(x,y):
 #main#######################################
 os.system("clear")
 print ("Press number  1: ")
-a = int input()
+a = int(input())
 
-b = int input("Press number 2: ")
+b = int(input( "Press number 2: "))
+
 calc(a,b)
